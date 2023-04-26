@@ -7,7 +7,7 @@ Script to give us the meta-data of a picture.
 from PIL import Image
 from PIL.ExifTags import TAGS
 #video-path
-img = input("What file do you want to analyze?\n>>> ").replace("'","")
+img = input("What file do you want to analyze?\n(Remember that u can only analyze images!\n>>> ").replace("'","").replace(" ","")
 image = Image.open(img)
 all_data = image.getexif()
 

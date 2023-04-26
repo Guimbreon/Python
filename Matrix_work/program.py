@@ -1,57 +1,63 @@
 #!/usr/bin/env python3
+"""
+
+This program is used when you need to work with Matrizes.
+
+"""
 import random
 matrix=["1","2","3",
         "4","5","6",
         "7","8","9"]
-class data():
+class Data():
+    """
+    gets all the data from the matrix
+    """
     def lines(self,matrix):
+        """
+        Separates all the lines of the matrix"""
         all_lines=[]
         for lines in matrix:
             all_lines+=lines
         return all_lines
-def make_matrix(number_of_matrix):
-    """helps you make matrix's, here's how:
-    You have two options:
-        -1:A random matrix-> the program will generate for you a random matrix for you to work with,
-        -2:A personalized matrix-> You give the program a specific matrix that it'll work with.
-    """
-    print(f"{number_of_matrix}\n")
+    def make_matrix(self, number_of_matrix):
+        """helps you make matrix's, here's how:
+        You have two options:
+            -1:A random matrix-> the program will generate for you a random matrix for you to work with,
+            -2:A personalized matrix-> You give the program a specific matrix that it'll work with.
+        """
+        print(f"{number_of_matrix}\n")
 
-    choice=input("\nDo you want:\n1-A random matrix\n2-A personalized matrix\n>>")
-    
-    if choice=="1":
-        """
-        column_size=random.randint(1,5)
-        line_size=random.randint(1,5)
-        """
-        column_size,line_size=8,4
-        n_m=[column_size,line_size]
-        i,p=0,0
-        line=[]
-        matrix=[]
-        while i!=column_size:
-            while p!=line_size:
-                line.append(random.randint(0,9))
-                p+=1
-            matrix.append(line)
+        choice=input("\nDo you want:\n1-A random matrix\n2-A personalized matrix\n>>")
+        
+        if choice=="1":
+            column_size,line_size=8,4
+            n_m=[column_size,line_size]
+            i,p=0,0
             line=[]
-            p=0
-            i+=1
-    elif choice=="2":
-        n_m=(input("What's the size of the matrix?\nEx: n*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n>>")).split("*")
-        try:
-            for item in n_m:
-                1/int(item)
-        except:
-            print("Your input is formated incorrectly!\n\nn*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n")
-            quit()
-        for item in n_m:
-            if len(n_m)!=2: 
-                print("Your input is formated incorrectly!\n\nREMEMBER:\nn*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n")
+            matrix=[]
+            while i!=column_size:
+                while p!=line_size:
+                    line.append(random.randint(0,9))
+                    p+=1
+                matrix.append(line)
+                line=[]
+                p=0
+                i+=1
+        elif choice=="2":
+            n_m=(input("What's the size of the matrix?\nEx: n*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n>>")).split("*")
+            try:
+                for item in n_m:
+                    1/int(item)
+            except:
+                print("Your input is formated incorrectly!\n\nn*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n")
                 quit()
-        column_size=n_m[0]
-        line_size=n_m[1]
-    return matrix, n_m
+            for item in n_m:
+                if len(n_m)!=2: 
+                    print("Your input is formated incorrectly!\n\nREMEMBER:\nn*m   n and m are integers!\nn-->number of lines\nm-->number of columns\n")
+                    quit()
+            column_size=n_m[0]
+            line_size=n_m[1]
+        return matrix, n_m
 #to sum matrixs
 def sum(matrix1,matrix2):
     """Summ of the matrixs
@@ -136,17 +142,18 @@ def mult(matrix1):
         i+=1
     print(nums_in_spot)
 
-matrix1,n_m=make_matrix("This is the first matrix!")
+numbers1=Data()
+matrix1,n_m=numbers1.make_matrix("This is the first matrix!")
 for item in matrix1:
     print(item)
-numbers1=data()
+
 lines1=numbers1.lines(matrix1)
 
 
-matrix2,n_m=make_matrix("This is the second matrix!")
+numbers2=Data()
+matrix2,n_m=numbers2.make_matrix("This is the second matrix!")
 for item in matrix2:
     print(item)
-numbers2=data()
 lines2=numbers2.lines(matrix2)
 
 
