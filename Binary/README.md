@@ -6,14 +6,14 @@ This project contains two Python scripts for translating text to binary and vice
 
 ### Binary to Text Translator
 
-1. Navigate to the `Binary_translator` folder in your terminal or command prompt.
+1. Navigate to the `Binary` folder in your terminal or command prompt.
 2. Run the `binary_to_text.py` script using the command `python binary_to_text.py`.
 3. Enter the binary code you want to translate.
 4. The translated text will be displayed in the console.
 
 ### Text to Binary Translator
 
-1. Navigate to the `Binary_translator` folder in your terminal or command prompt.
+1. Navigate to the `Binary` folder in your terminal or command prompt.
 2. Run the `text_to_binary.py` script using the command `python text_to_binary.py`.
 3. Enter the text you want to translate.
 4. The translated binary code will be displayed in the console.
