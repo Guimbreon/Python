@@ -4,11 +4,15 @@ This repository contains a collection of Python projects that I have worked on d
 
 ## Projects
 
-- **Games**: Put here frase on what the project is about. 
+- **Binary**: Binary translator and encoder, only for letters.
 
-- **Passwords**: Put here frase on what the project is about.
+- **Encripting**: Program to encript and decript text files.
 
-- **Project 3**: Add more projects
+- **Games**: All the games I have done.
+
+- **MetaData**: Get all the information out of a picture!
+
+- **Passwords**: Password testing and generator!
 
 ## Getting Started
 
