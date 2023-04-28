@@ -34,7 +34,8 @@ The `decripter.py` script takes an encrypted message and the key file generated 
 8. The script will translate the message and print the original quote to the command prompt.
 
 ## Example
-###First Terminal
+
+First Terminal
 
 	python encripter.py
 	Which quote do you want to encrypt?
@@ -44,10 +45,13 @@ The `decripter.py` script takes an encrypted message and the key file generated 
 
 	oshtXhgnzoxi~nnqlw
 
-###Second terminal
+Second terminal
 
 	python decripter.py key_file.txt
 	What's the encrypted message you want to translate?
 	>>oshtXhgnzoxi~nnqlw
 	Hello, World!
+	
+## License
 
+These projects are licensed under the GNU General Public License. See the `LICENSE` file in the start of the repositor.
