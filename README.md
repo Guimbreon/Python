@@ -28,5 +28,5 @@ If you would like to contribute to any of these projects, feel free to open a pu
 
 ## License
 
-These projects are licensed under the GNU General Public License. See the (LICENSE)[LICENSE] file for more information.
+These projects are licensed under the GNU General Public License. See the [LICENSE](LICENSE) file for more information.
 
