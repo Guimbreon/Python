@@ -23,6 +23,8 @@ The program is written in Python and consists of a single file `tiktaktoe.py`. I
 
 The program defines a `check` function that checks if any player has won or if the game is over. The `while` loop runs until the game is over. Within the loop, the program prompts the player to enter their chosen spot and checks if the spot is valid. If the spot is valid, the program checks if the spot is already taken by the other player, and if not, it fills the spot with the player's symbol. The program then calls the `check` function to check if the game is over.
 
+If you choose a spot not in the model the code gave you, the code will error and stop the game!
+
 After the game is over, the program declares the winner and prints the final game board.
 
 ## Contributing
