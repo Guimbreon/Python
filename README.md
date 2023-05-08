@@ -12,7 +12,7 @@ This repository contains a collection of Python projects that I have worked on d
 
 - **Passwords**: Password testing and generator!
 
-- **rock_paper_scissors**: A Rock Paper and Scissors game!
+- **Games**: A pasta with all the games i've done
 
 ## Getting Started
 
