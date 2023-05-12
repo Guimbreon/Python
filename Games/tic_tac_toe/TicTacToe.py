@@ -66,7 +66,7 @@ while end != 1:
                 {play[4]}|{play[5]}|{play[6]}
                 {play[7]}|{play[8]}|{play[9]}
     >>""")
-    if i not in play:
+    if i not in play or i == "0":
         print("\nThe digit you entered isn't a posible spot position!")
         error = 2
     if error !=2:
