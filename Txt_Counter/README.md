@@ -34,7 +34,6 @@ Suppose we want to count the number of words, lines, and characters in a file lo
 
 - The script currently supports only UTF-8 encoded files.
 - If you choose to count the total number of words in the file, the script will treat words separated by a forward slash (/) as separate words as well.
-- The option to count a specific word in the file is not yet available but will be added soon.
 
 ## License
 
