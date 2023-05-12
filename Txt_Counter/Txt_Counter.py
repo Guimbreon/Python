@@ -1,12 +1,22 @@
+programa = """
+This program reads the file and then:
+
+    1- Count the total Words
+    2- Count the Lines
+    3- Count all the characters
+    4- Count a specific Word.
 """
-Counting in files
 
-"""
-import re
+#argparser part of the program
+import sys
 
-FILE = "/home/guimbreon/Desktop/GIT_TESTS/Python/Pdf_Counter/LICENSE"
+if len(sys.argv) != 2:
+    print("""You either provided extra files or didn't have enought files.
+    You have to run the program like:
+    Python3 Txt_Counter.py FILE_NAME""")
+    quit()
 
-with open(f"{FILE}","r",encoding="utf-8") as pdf:
+with open(f"{sys.argv[1]}","r",encoding="utf-8") as pdf:
     EVERYTHING = [] 
     for item in pdf:
         EVERYTHING.append(item.replace("\n",""))

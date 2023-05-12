@@ -8,12 +8,14 @@ This is a Python script that counts the total number of words, lines, and charac
 2. Open the terminal and navigate to the directory where the script is located.
 3. Run the script using `python3 file_counter.py`.
 4. The script will ask you to input the path to the file you want to count. Enter the full path to the file.
-5. Choose from the following options:
+5. Use the program like:
+	 Python3 Txt_Counter.py FILE_NAME
+6. Choose from the following options:
     1. Count the total number of words in the file.
     2. Count the total number of lines in the file.
     3. Count the total number of characters in the file.
     4. Count a specific word in the file (coming soon!).
-6. The script will output the corresponding count based on your choice.
+7. The script will output the corresponding count based on your choice.
 
 ## Example
 
