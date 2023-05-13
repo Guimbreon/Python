@@ -1,8 +1,8 @@
-#Txt Compare
+# Txt Compare
 
 This Python code analyzes two text files and calculates the percentage of words that differ between them.
 
-##Getting Started
+## Getting Started
 
 To run this code, follow the instructions below:
 
@@ -10,7 +10,7 @@ To run this code, follow the instructions below:
 2. Ensure that you have Python installed on your system.
 3. Navigate to the directory containing the code file.
 
-##Usage
+## Usage
 
 To use this code, follow the instructions below:
 
@@ -19,7 +19,7 @@ To use this code, follow the instructions below:
 3. The code will output the number of words that are the same in both files and the number of words that differ.
 4. The code will also calculate the percentage of words that differ between the two files and output the results to the user.
 
-##Code Description
+## Code Description
 
 The `Word_Counting` function takes a text file as input and returns a dictionary that contains the count of each word in the file. The function does the following:
 
