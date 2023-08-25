@@ -6,7 +6,7 @@ This is a basic math library that provides several functions for performing arit
 
 To use this library, simply import the module in your Python code:
 
-	pip install git+https://github.com/guimbreon/PyLib-MATH
+	pip install git+https://github.com/guimbreon/Python/tree/master/Libraries/PyLib_MATH
 	
 ## Usage
 

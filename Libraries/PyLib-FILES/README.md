@@ -6,7 +6,7 @@ This is a file library that makes it easier to work with files.
 
 To use this library, simply import the module in your Python code:
 
-	pip install git+https://github.com/guimbreon/PyLib-FILES
+	pip install git+https://github.com/guimbreon/Python/tree/master/Libraries/PyLib-FILES
 	
 ## Usage
 
