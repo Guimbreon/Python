@@ -8,9 +8,9 @@ This repository contains a collection of Python projects that I have worked on d
 
 - **Encripting**: Program to encript and decript text files.
 
-- **Games**: A pasta with all the games i've done
+- **Games**: A File with all the games i've done
 
-- **Libraries**: This pasta contains all the libraries i did using the Python Language.
+- **Libraries**: This File contains all the libraries i did using the Python Language.
 
 - **MetaData**: Get all the information out of a picture!
 
