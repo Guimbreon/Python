@@ -37,9 +37,11 @@ def writing_key(letter_sub):
             file.write(f">{letter}\n{letter_sub[letter]}\n")
 
 #FUNCTION CALLING
+"""
 quote=input("Which quote to you want to encript?\n>>")
 diff=different(quote)
 letter_sub=substitution(diff)
 encripted=encripting(quote)
 writing_key(letter_sub)
 print(f"\n{encripted}\n") #Tells the user what the encripted item is!
+"""

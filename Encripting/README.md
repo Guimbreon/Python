@@ -37,7 +37,7 @@ The `decripter.py` script takes an encrypted message and the key file generated 
 
 First Terminal
 
-	python encripter.py
+	python Test_Encripter.py
 	Which quote do you want to encrypt?
 	>>Hello, World!
 	What file do you want to put the doc_keys?
@@ -47,7 +47,7 @@ First Terminal
 
 Second terminal
 
-	python decripter.py key_file.txt
+	python Test_Decripter.py key_file.txt
 	What's the encrypted message you want to translate?
 	>>oshtXhgnzoxi~nnqlw
 	Hello, World!
